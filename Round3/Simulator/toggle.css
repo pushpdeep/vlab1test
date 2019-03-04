@@ -1,0 +1,343 @@
+
+.matchpic
+{
+  position: absolute;
+    
+  top:50px;
+  left: 400px;
+ 
+   width: 300px;
+   height: 300px;
+/* border: 3px solid #73AD21;*/
+  z-index: 2;
+ 
+  background-repeat: no-repeat;
+
+
+
+}
+
+.gif
+{
+  position: absolute;
+    
+  top: 722;
+  left: 550px;
+ 
+   width: 300px;
+   height: 750px;
+ /* border: 3px solid #73AD21;*/
+  z-index: 2;
+ 
+  background-repeat: no-repeat;
+}
+
+
+
+
+  .match
+  {
+    position: absolute;
+    /*margin: 10%;*/
+    
+    
+    top: 100px;
+    left: 100px;
+  /*  background-color: rgb(33, 168, 173);*/
+     width: 80%;
+     height: 65%;
+  /*  border: 3px solid #73AD21;*/
+  }
+
+  .leftdiv 
+  { 
+     position: absolute;
+     background-image: url('Capture.png');
+     top: 700px;
+     left: 100px;
+     background-color: 009900; 
+     z-index: 1;
+     background-repeat: no-repeat;
+     background-size: 700px 700px;
+      width: 700px;
+      height: 700px;
+     /*border: 3px solid #73AD21;*/
+  } 
+ 
+  .Vol
+  { 
+     position: absolute;
+     z-index: 3;
+     top: 410px;
+     left: 130px;
+     font-family: digital;
+     z-index: 1;
+      width: 200px;
+      height: 15px;
+    
+    
+  } 
+  .Amp
+  { 
+     position: absolute;
+     z-index: 3;
+     top: 410px;
+     left: 280px;
+     
+     z-index: 1;
+      width: 200px;
+      height: 15px;
+      
+    
+  } 
+  .input
+  {
+   position: absolute;
+   z-index: 3;
+     top: 450px;
+     left: 250px;
+     padding: 5px;
+     margin: 5px;
+     
+     z-index: 1;
+      width: 200px;
+      height: 15px;
+
+  }
+   .tempTab
+   {
+    position: absolute;
+     
+    top: 460px;
+    left: 140px;
+    
+    z-index: 1;
+     width: 200px;
+     height: 15px;
+   
+
+   }
+   .tempos{
+    position: absolute;
+    z-index: 1;
+    top: 520px;
+    left: 128px;
+    width: 200px;
+     height: 15px;
+   }
+   .stopwatch
+   {
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    left: 170px;
+    width: 150px;
+     height: 50px;
+     border: 5px rgb(243, 93, 33);
+     z-index: 1;
+   }
+                 
+ 
+
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+
+  /* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+ 
+  height: 24px;
+}
+
+/* Hide default HTML checkbox */
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(245, 8, 0, 0.89);
+    -webkit-transition: .4s;
+    transition: .4s;
+    z-index: 3;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(235, 231, 232);
+    -webkit-transition: .4s;
+    transition: .4s;
+    z-index: 3;
+  }
+  
+  input:checked + .slider {
+    background-color: rgb(80, 218, 17);
+    z-index: 3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+    z-index: 3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    z-index: 3;
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+    z-index: 3;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+    z-index: 3;
+  }
+
+
+
+
+
+  .header1
+  {
+     position: absolute;
+    
+    top: 10px;
+    left:130px;
+  }
+
+  .header2
+  {
+     position: absolute;
+    
+    top: 130px;
+    right:350px;
+  }
+  .header3
+  {
+     position: absolute;
+    
+    top: 1600px;
+    right:10px;
+    
+  }
+ .q1
+ { 
+    position: absolute;
+    
+    top: 1200px;
+    left:50px;
+    
+    
+     width:500px;
+     height: auto;
+     background-color: rgb(251, 255, 255);
+     border-color: black;
+ }
+ 
+ .table2
+{
+ position: static;
+ 
+ top:700;
+ right: 100;
+ background-color:white;
+ 
+ width: 500px;
+ height: 650px;
+ border: 3px solid rgb(254, 255, 252);
+
+}
+.obsTable{
+position: absolute;
+top: 800;
+left:50;
+width:600px;
+
+}
+
+#obst{
+border: #73AD21;
+width: 300px;
+top:500px;
+}
+
+
+/*POPUP DESIGN*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popUp {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  font-size: 20px;
+  transition: all 5s ease-in-out;
+}
+.popUp h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popUp .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popUp .close:hover {
+  color: #06D85F;
+}
+.popUp .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 

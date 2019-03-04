@@ -1,0 +1,99 @@
+{
+  "version": "1.4.1",
+  "aspectRatio": "1.7777777777777777",
+  "fps": 24,
+  "defaultBoardTiming": 2000,
+  "boards": [
+    {
+      "uid": "AXPBA",
+      "url": "board-2-AXPBA.png",
+      "newShot": false,
+      "lastEdited": 1549791192639,
+      "layers": {
+        "reference": {
+          "url": "board-2-AXPBA-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 1,
+      "shot": "1A",
+      "time": 0,
+      "lineMileage": 0
+    },
+    {
+      "uid": "U4OU8",
+      "url": "board-3-U4OU8.png",
+      "newShot": false,
+      "lastEdited": 1549791192935,
+      "layers": {
+        "reference": {
+          "url": "board-3-U4OU8-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 2,
+      "shot": "2A",
+      "time": 2000
+    },
+    {
+      "uid": "UW3PC",
+      "url": "board-3-UW3PC.png",
+      "newShot": false,
+      "lastEdited": 1549791287154,
+      "layers": {
+        "reference": {
+          "url": "board-3-UW3PC-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 3,
+      "shot": "3A",
+      "time": 4000
+    },
+    {
+      "uid": "GUQ6V",
+      "url": "board-5-GUQ6V.png",
+      "newShot": false,
+      "lastEdited": 1549791193643,
+      "layers": {
+        "reference": {
+          "url": "board-5-GUQ6V-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 4,
+      "shot": "4A",
+      "time": 6000
+    },
+    {
+      "uid": "SWCKF",
+      "url": "board-6-SWCKF.png",
+      "newShot": false,
+      "lastEdited": 1549791194059,
+      "layers": {
+        "reference": {
+          "url": "board-6-SWCKF-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 5,
+      "shot": "5A",
+      "time": 8000
+    },
+    {
+      "uid": "8I1CK",
+      "url": "board-7-8I1CK.png",
+      "newShot": false,
+      "lastEdited": 1549791194363,
+      "layers": {
+        "reference": {
+          "url": "board-7-8I1CK-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 6,
+      "shot": "6A",
+      "time": 10000
+    }
+  ]
+}
